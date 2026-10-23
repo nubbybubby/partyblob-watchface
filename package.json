@@ -1,0 +1,60 @@
+{
+  "name": "Party Blob",
+  "author": "nubbybubby",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-watchface"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Party Blob",
+    "uuid": "c7c4a690-c4c7-44cb-8454-3161237c1235",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "leading_zero",
+      "blob_speed",
+      "color_speed",
+      "bottom_text"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_ICON",
+          "file": "images/icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "raw",
+          "name": "PARTY_BLOB_FIRST_FRAME",
+          "file": "images/party_blob_first_frame.png"
+        },
+        {
+          "type": "raw",
+          "name": "PARTY_BLOB",
+          "file": "images/party_blob.png"
+        },
+        {
+          "type": "font",
+          "name": "LUCKIEST_GUY_50",
+          "file": "fonts/LuckiestGuy/LuckiestGuy-Regular.ttf"
+        },
+        {
+          "type": "font",
+          "name": "LUCKIEST_GUY_28",
+          "file": "fonts/LuckiestGuy/LuckiestGuy-Regular.ttf"
+        }
+      ]
+    }
+  }
+}
